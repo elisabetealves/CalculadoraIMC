@@ -19,7 +19,13 @@ class MainActivity : AppCompatActivity() {
             val w = weight.text.toString().toFloat()
             val res = w/(h*h)
 
-            if (res >= 18.5 && res <= 24.99) {
+            if (res < 16) {
+                result.text = ("%.2f".format(res) + " Magreza Grave. Cuidado! Recomendamos que você procure um médico com urgência. ")
+            } else if (res >= 16 && res <= 17) {
+                result.text = ("%.2f".format(res) + " Magreza Moderada. Recomendamos que você matenha o olho na sua saúde. ")
+            } else if (res > 17 && res < 18.5) {
+                result.text = ("%.2f".format(res) + " Magreza Leve. Não descuide da sua saúde procure manter hábitos saudáveis. ")
+            }else if (res >= 18.5 && res <= 24.99) {
                 result.text = ("%.2f".format(res) + " Peso Normal. Parabéns, você está com o peso normal. Recomendamos que mantenha hábitos saudáveis em seu dia a dia. ")
             } else if (res >= 25 && res <= 29.99) {
                 result.text = ("%.2f".format(res) + " Acima do peso. Atenção! Alguns quilos a mais já são suficientes para que algumas pessoas desenvolvam doenças associadas, como diabetes e hipertensão. É importante rever seus hábitos.")
