@@ -14,7 +14,7 @@
     <p style="color: #e84393; font-weight: bold;">🎨 Layout</p>
 </h1>
 
-![image](https://user-images.githubusercontent.com/79269477/175783307-72712b8b-3b7f-4c06-8322-78daa37b57c1.png)
+![image](https://user-images.githubusercontent.com/79269477/175783527-413cbe22-9c85-4bb4-afb3-8b94fc1ac20b.png)
 
 
 
