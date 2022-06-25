@@ -13,6 +13,7 @@
     <br>
     <p style="color: #e84393; font-weight: bold;">🎨 Layout</p>
 </h1>
+![image](https://user-images.githubusercontent.com/79269477/175783307-72712b8b-3b7f-4c06-8322-78daa37b57c1.png)
 
 ![image](https://user-images.githubusercontent.com/79269477/169098650-159d61fa-620e-4143-8a90-69812a86075e.png)
 
